@@ -1,0 +1,194 @@
+@font-face {
+    font-family: mansory;
+    src: url(fonts/mansory.ttf);
+  }
+  
+  @font-face {
+    font-family: Solar Vesta Script;
+    src: url(fonts/sami.ttf);
+  }
+   
+  @font-face {
+    font-family:Cinzel Decorative;
+    src: url(fonts/CinzelDecorative-Regular.ttf);
+  }
+  @font-face {
+    font-family:Raleway Regular;
+    src: url(fonts/Raleway-Regular.ttf);
+  }
+ 
+  a{
+    text-decoration: none;
+    color: #BD9060;
+} 
+a:hover{
+    size: 1.3em;
+    cursor: pointer;
+    color:#BD9060;
+    font-weight: bold;
+}
+
+.container{
+    height: 768px;
+}
+#header1{
+    background-color: #08172E;
+}
+
+#upper h1{
+    font-family: 'mansory';
+    color: #cc7d51;
+    display: inline-block;
+    height: 100px;
+    text-align: center;
+    padding: 23px;
+}
+
+#smallFont{
+    color: #bd9060;
+    font-family: 'Solar Vesta Script';
+}
+
+.navbar1{
+    font-size:21px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar1 ul{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+    margin-top: 210px;
+}
+
+.navbar1 ul li {
+		display: inline;
+        padding: 18px;
+        color: #BD9060;
+        font-family: 'Cinzel Decorative';
+	}
+
+   
+    .mansoryFont{
+        font-family: 'mansory';
+        color: #cc7d51;
+        font-size: 100px;
+    }
+    .sFont{
+        color: #BD9060;
+        font-family: Solar Vesta Script;
+    }
+    #ssFont{
+        margin-top: 230px;
+    }
+    .col-sm-6{
+        display: inline;
+        float: none;
+        height: 750px;
+    }
+
+    #welcome p{
+        font-size: 50px;
+    }
+    .col-sm-6 img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 176px;
+        }
+
+    .col-sm-6 h1{
+        text-align: start;
+        justify-content: center;
+    }
+
+    #venue1 h1{
+        text-align: start;
+        justify-content: center;
+        margin: auto;
+        margin-top: 250px;
+
+    }
+    #venue1 p{
+        margin-left: 70px;
+        margin-top: 20px;
+        font-family: 'Raleway Regular';
+        color: #BD9060;
+    }
+    #venue2 h1{
+        text-align: start;
+        justify-content: center;
+        margin: auto;
+        margin-top: 250px;
+       
+    }
+    #venue2 p{
+        margin-left: 70px;
+        margin-top: 20px;
+        font-family: 'Raleway Regular';
+        color: #BD9060;
+    }
+    #venue3 h1{
+        text-align: start;
+        justify-content: center;
+        margin: auto;
+        margin-top: 250px;
+       
+    }
+    #venue3 p{
+        margin-left: 170px;
+        margin-top: 20px;
+        font-family: 'Raleway Regular';
+        color: #BD9060;
+    }
+
+    .footer {
+        text-align: center;
+        color: #BD9060;
+        font-family: 'Raleway';
+    }
+    
+    .footer-naviation{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footer-naviation-item {
+        text-align: center;
+        text-decoration: bold;
+        color: #BD9060;
+        padding-left: 10px ;
+        padding-right: 10px ;
+    }
+    
+    .social-icon{
+        width: 6%;
+        padding-left: 10px ;
+        padding-right: 10px ;
+    }
+    
+    .social-icon-bar{
+        padding-bottom: 50px;
+    }
+    
+    hr {
+        width: 80%;
+        margin: auto;
+        height: 3px;  
+        opacity: 100%;
+    }
+    
+    .col-icon{
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .col-nav {
+        margin: 20px auto 10px auto;
+        font-weight: bold;
+    }
